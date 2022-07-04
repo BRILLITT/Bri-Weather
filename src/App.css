@@ -1,0 +1,123 @@
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image:url("https://thumbs.gfycat.com/PinkTautChrysomelid-size_restricted.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+ 
+  align-items: center;
+  color:#a9a7ac;
+ text-align: center;
+  width: 100vw;
+ height: 100vh;
+ 
+
+}.coco{
+  
+  justify-content: center;
+  flex-direction: column;
+  
+  
+  align-items: center;
+ 
+ text-align: center;
+
+
+
+
+}.img{
+  width: 150px;
+  height: 150px;
+}
+.coco2{
+  
+  justify-content: center;
+  flex-direction: column;
+  background-color: #c1c7ce;
+  opacity:100px;
+  align-items: center;
+  color:#8e6deb;
+ text-align: center;
+ padding: 10px;
+  width: 400px;
+  box-shadow: 0px 0px 3px 2px #bdc0c5;
+ border-radius: 40px;
+ margin:50px;
+ height: 360px;
+}span{
+  color: #282c34;
+  font-weight: bold;
+}
+.index{
+  display: flex;
+  font-size: 15px;
+  line-height: 0%;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  
+  }.conte_text{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+  }.cont_img{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .button{
+    background-color: #8e6deb;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: aliceblue;
+    transform: scale(1);
+  }.button:hover{
+    transform: scale(1.2);
+    background-color: #61dafb;
+
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
